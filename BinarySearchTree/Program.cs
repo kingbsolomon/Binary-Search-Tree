@@ -10,9 +10,7 @@ namespace BinarySearchTree
     {
         static void Main(string[] args)
         {
-
             BinarySearchTree myBST = new BinarySearchTree();
-
             myBST.Add(55);
             myBST.Add(17);
             myBST.Add(77);
@@ -22,16 +20,12 @@ namespace BinarySearchTree
             myBST.Add(33);
             myBST.Add(10);
             myBST.Add(80);
-
             Console.WriteLine(myBST.Search(12));
             Console.WriteLine(myBST.Search(15));
             Console.WriteLine(myBST.Search(10));
             Console.WriteLine(myBST.Search(55));
             Console.WriteLine(myBST.Search(81));
             Console.ReadLine();
-
-           
-           
         }
     }
 }

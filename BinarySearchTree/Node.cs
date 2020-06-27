@@ -8,11 +8,9 @@ namespace BinarySearchTree
 {
     public class Node
     {
-
         public int Data;
         public Node LeftNode;
         public Node RightNode;
-
         public Node(int data)
         {
             Data = data;

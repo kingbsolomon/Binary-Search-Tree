@@ -9,23 +9,19 @@ namespace BinarySearchTree
 {
     public class BinarySearchTree
     {
-
         public Node RootNode;
         public BinarySearchTree()
         {
             RootNode = null;
         }
-
         public void Add(int value)
         {
             Node newNode = new Node(value);
-
             if(RootNode == null)
             {
                 RootNode = newNode;
                 return;
             }
-            
             Node currentNode = RootNode;
             while (true)
             {   
@@ -55,14 +51,12 @@ namespace BinarySearchTree
                 }
             }
         }
-
         public bool Search(int value)
         {
             if (value == RootNode.Data)
             {
                 return true;
             }
-
             Node currentNode = RootNode;
             while (true)
             {
