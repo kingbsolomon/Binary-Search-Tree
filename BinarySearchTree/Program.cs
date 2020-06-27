@@ -13,14 +13,24 @@ namespace BinarySearchTree
 
             BinarySearchTree myBST = new BinarySearchTree();
 
-            Node node1 = new Node(15);
-            Node node2 = new Node(17);
-            Node node3 = new Node(7);
-            Node node4 = new Node(15);
-            myBST.Add(node1);
-            myBST.Add(node2);
-            myBST.Add(node3);
-            myBST.Add(node4);
+            myBST.Add(55);
+            myBST.Add(17);
+            myBST.Add(77);
+            myBST.Add(27);
+            myBST.Add(12);
+            myBST.Add(4);
+            myBST.Add(33);
+            myBST.Add(10);
+            myBST.Add(80);
+
+            Console.WriteLine(myBST.Search(12));
+            Console.WriteLine(myBST.Search(15));
+            Console.WriteLine(myBST.Search(10));
+            Console.WriteLine(myBST.Search(55));
+            Console.WriteLine(myBST.Search(81));
+            Console.ReadLine();
+
+           
            
         }
     }
